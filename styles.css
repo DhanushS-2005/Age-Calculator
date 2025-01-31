@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(209, 197, 197);
+}
+
+/* heading  */
+
+body>h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-family: "Inter", serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 0px 0px 3px yellow;
+}
+
+/* main container */
+
+.container{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px 30px 20px 30px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px 4px grey;
+}
+
+/* incontainer heading */
+
+.container>h1{
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* questions */
+
+.container h3 {
+    font-size: 25px;
+    margin: 30px;
+}
+
+/* input box */
+
+.container input{
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.name>h3:nth-child(2) input {
+    margin-left: 28px;
+}
+
+/* button  */
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button>button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px grey;
+}
+button{
+    transition: 0.5s;
+}
+button:hover {
+    color: white;
+    letter-spacing: 3px;
+    padding: 10px 5px 10px 5px;
+}
+
+/* result */
+
+.container p {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(246, 4, 185);
+}
